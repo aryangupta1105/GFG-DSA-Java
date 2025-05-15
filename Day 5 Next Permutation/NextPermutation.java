@@ -57,7 +57,7 @@ public class NextPermutation {
     
 
     public static void main(String[] args) {
-        int arr[] = {3, 4, 2, 5, 1};
+        int arr[] = {1, 3 , 2};
         printArray(arr);
         findNextPermutation(arr);
         printArray(arr);

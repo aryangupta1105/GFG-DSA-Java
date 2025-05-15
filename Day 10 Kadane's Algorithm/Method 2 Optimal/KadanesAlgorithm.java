@@ -12,6 +12,9 @@ public class KadanesAlgorithm {
 
         return maxSum;
     }
+    
+
+   
     public static void main(String[] args) {
         int arr[] = {-2, -4};
         System.out.println(maxSubArray(arr));
