@@ -26,7 +26,19 @@ public class OverlappingIntervals {
         return result;
     
     }
-    
+
+    static List<int[]> insertInterval(int[][] arr , int newArr[]){
+
+        List<int[]> r = OverlappingIntervals(arr);
+        
+
+
+        int current = 
+
+
+        return r;
+    }
+
     public static void main(String args[]){
         int arr[][] = {{1,3},{2,4},{6,8}, {9,10}};
 
