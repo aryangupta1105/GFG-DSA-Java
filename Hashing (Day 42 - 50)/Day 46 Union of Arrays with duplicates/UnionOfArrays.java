@@ -6,6 +6,7 @@ public class UnionOfArrays {
         HashMap<Integer, Integer> h  = new HashMap<>();
         for(int i = 0; i<a.length; i++){
             h.put(a[i] , h.getOrDefault(h.get(a[i]) , 0) + 1);
+        
         }
         for(int i = 0; i<b.length; i++){
             h.put(b[i] , h.getOrDefault(h.get(b[i]) , 0) + 1);
