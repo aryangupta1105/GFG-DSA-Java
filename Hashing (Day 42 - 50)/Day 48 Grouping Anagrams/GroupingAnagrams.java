@@ -7,6 +7,7 @@ public class GroupingAnagrams {
         // code here
         
         HashMap<String , ArrayList<String>> h = new HashMap<>();
+    
         
         for(int i = 0; i<arr.length; i++){
             char[] charArr = arr[i].toCharArray();

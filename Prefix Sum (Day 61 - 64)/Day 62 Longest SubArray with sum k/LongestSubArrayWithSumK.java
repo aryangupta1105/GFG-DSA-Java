@@ -13,10 +13,12 @@ public class LongestSubArrayWithSumK {
             if(sum == k){
                 length = i+1;
             }
+        
             
             if(h.containsKey(sum-k)){
                 length = Math.max(length , i - h.get(sum-k));
             }
+
             
             if(!h.containsKey(sum)){
                 h.put(sum , i);
