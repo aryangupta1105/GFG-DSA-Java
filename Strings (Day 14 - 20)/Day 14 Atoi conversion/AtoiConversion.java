@@ -18,7 +18,7 @@ public class AtoiConversion {
             }
             i++;
         }
-        int result = 0;
+        int result = 0; 
         // Read digits
          while (i < n && Character.isDigit(s.charAt(i))) {
             int digit = s.charAt(i) - '0';
